@@ -64,6 +64,8 @@
     "typescript": "^4.1.3"
   },
   "jest": {
+    "bail": 1,
+    "verbose": true,
     "preset": "react-native",
     "setupFiles": [
       "./node_modules/react-native-gesture-handler/jestSetup.js"

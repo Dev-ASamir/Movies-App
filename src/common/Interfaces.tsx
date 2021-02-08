@@ -1,8 +1,3 @@
-export interface DetailsResponse {
-  movie: MovieDetails;
-  error: boolean;
-}
-
 export interface SearchResponse {
   movies: Movie[];
   error: boolean;
@@ -26,5 +21,4 @@ export interface Movie {
   vote_average: number;
   release_date?: string;
   id?: string;
-  onPress: () => void;
 }
