@@ -1,32 +1,32 @@
 # Movies-App
 
- Movies App (Demo) for discovering movies and view details for each novie and add to favorites
- 
- # IMPORTANT NOTE
+Movies App (Demo) for discovering movies and view details for each movie and add to favorites
+
+# IMPORTANT NOTE
 
 I am using API provided by https://www.themoviedb.org/documentation/api
 
 # Main technologies used
 
-* React Native
-* Typescript
-* React Navigation (v5)
-* RESTful API
-* React Native Testing Library
+- React Native
+- Typescript
+- React Navigation (v5)
+- RESTful API
+- React Native Testing Library
 
 # Main functionality
 
-* Home Page user can search by the movie name and if there are result it will appear or it will view no result message.
-* User can see all the details related to the movie by click on the movie card.
-* Favorite Page contain list of user's favorite movies.
+- Home Page user can search by the movie name and if there are result it will appear or it will view no result message.
+- User can see all the details related to the movie by click on the movie card.
+- Favorite Page contain list of user's favorite movies.
 
 # Prerequisites
 
-* React Native CLI to be installed. You can install it by running the command:
+- React Native CLI to be installed. You can install it by running the command:
 
 npm install -g react-native-cli
 
-* Simulator or emulator to run the app on.
+- Simulator or emulator to run the app on.
 
 # Installation
 
@@ -42,15 +42,15 @@ in IOS
 
 You will need to make one more step to install pods dependencies, run the following command in the project directory:
 
-* cd ios && pod install
+- cd ios && pod install
 
 # Run on Device
 
-* run yarn android or yarn ios to run on device or emulator.
+- run yarn android or yarn ios to run on device or emulator.
 
 # Run Unit Test
 
-* run yarn run test to run all unit test suites.
+- run yarn run test to run all unit test suites.
 
 # Used dependencies
 
@@ -76,5 +76,5 @@ You will need to make one more step to install pods dependencies, run the follow
     "redux-persist": "^6.0.0",
     "redux-thunk": "^2.3.0",
     "validator": "^13.5.2"
-    
+
     Also I am using eslint and prettier for better code formatting

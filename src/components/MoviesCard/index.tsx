@@ -25,11 +25,7 @@ const MoviesCard: React.FC<MoviesProps> = ({ movie, onPress }: MoviesProps) => {
   const heartColor = index === -1 ? COLORS.gray : COLORS.red;
   return (
     <View style={styles.container}>
-      <TouchableOpacity
-        testID="MoviesCard"
-        style={styles.card}
-        activeOpacity={ACTIVE_OPCITY}
-        onPress={onPress}>
+      <TouchableOpacity style={styles.card} activeOpacity={ACTIVE_OPCITY} onPress={onPress}>
         <Image
           source={{
             uri: movie.poster_path != null ? IMAGE_URL + movie.poster_path : PLACEHOLDER_IMAGE,
