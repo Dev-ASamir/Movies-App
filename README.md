@@ -1,6 +1,6 @@
 # Movies-App
 
- Movies App (Demo) for discovering movies and view details for each novie and add to favorites
+ Movies App (Demo) for discovering movies and view details for each movie and add to favorites
  
  # IMPORTANT NOTE
 
